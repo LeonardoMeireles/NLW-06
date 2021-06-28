@@ -6,3 +6,4 @@ O NLW Valoriza é um produto web criado a partir de um estudo voltado para o Bac
 ### Feito Com
 * TYPEORM
 * SQLITE
+* JWT
