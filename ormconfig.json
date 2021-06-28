@@ -1,0 +1,29 @@
+[
+    {
+        "name": "default",
+        "type": "sqlite",
+        "database": "src/database/database.sqlite",
+        "migrations": ["src/database/migrations/*.ts"],
+        "entities": ["src/entities/*.ts"],
+        "cli":{ 
+            "migrationsDir": "src/database/migrations",
+            "entitiesDir": "src/entities"
+        }
+    },
+    {
+        "name": "BD MYSQL",
+        "type": "mysql",
+        "host": "localhost",
+        "port": "3306",
+        "username": "root",
+        "password": "leko2001",
+        "database": "NLW",
+        "migrations": ["src/database/migrations/*.ts"],
+        "entities": ["src/entities/*.ts"],
+        "cli":{ 
+            "migrationsDir": "src/database/migrations",
+            "entitiesDir": "src/entities"
+        },
+        "logging": true
+    }
+]

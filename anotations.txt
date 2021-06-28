@@ -1,0 +1,30 @@
+/*
+    GET    => Busca uma informação'
+    POST   => Inserir ou criar uma informação
+    PUT    => Alterar uma informação
+    DELETE => Remover um dado
+    PATCH  => Alterar uma informação específica
+*/
+
+/*
+    Tipos de parâmetros
+    - Routes Params => http://localhost:3000/produtos/321321321
+    - Query Params => http://localhost:3000/produtos?name=teclado&description=tecladobom&cor=preto&         *Parametros não obrigatorios na rota*
+    
+    - Body Params => {
+        "name": "teclado",
+        "description": "teclado bom"
+    }
+*/
+
+ - CLI
+    Ferramenta utilizada no terminal, para controlar a DB
+
+ - Caminho:
+    Server -> Routes -> Controller -> Service
+
+- Middlewares
+    São interceptadores dentro de uma requisição, pode interromper por total a requisição ou adicionar alguma informação.
+
+- JWT (Json Web Tokens)
+    É um token que passamos pelas requisições para garantir que as rotas que precisão ser autenticadas são verificadas.
